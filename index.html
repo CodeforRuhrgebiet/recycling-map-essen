@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>recycling map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body class="recycling-map">
+    <header class="recycling-map__header">
+      <h1>Recycling-Abfallentsorgung in Essen</h1>
+    </header>
+    <main class="recycling-map__main">
+      <section class="recycling-map__leaflet-wrapper">
+        <section class="recycling-map__legend">
+          <h3>Legende</h3>
+          <ul class="recycling-map__legend-list">
+            <li class="recycling-map__legend-item recycling-map__legend-item--glass">Glas <span></span></li>
+            <li class="recycling-map__legend-item recycling-map__legend-item--other">Sonstige <span></span></li>
+          </ul>
+        </section>
+        <section class="leaflet-map" id="recycling-map"></section>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="./recycling-map.min.js" type="text/javascript" charset="utf-8"></script>
+
+  </body>
+</html>
