@@ -6,7 +6,7 @@
 
 ### js
 
-`babel recycling-maps.js | uglifyjs -c -m > recycling-maps.min.js`
+`babel recycling-map.js | uglifyjs -c -m > recycling-map.min.js`
 
 ### css
 
