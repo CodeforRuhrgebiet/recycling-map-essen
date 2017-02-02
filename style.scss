@@ -1,10 +1,20 @@
+$green: #8cdba6;
+$red: #ff635e;
+$blue: #00abfa;
+$font-body: Helvetica, Arial, sans-serif;
+
+body {
+  font-family: $font-body;
+}
+
 .recycling-map {
 
   padding: 20px;
 
   &__header {
     h1 {
-      font-family: 'Work Sans';
+      font-family: $font-body;
+      font-weight: 300;
     }
   }
 
@@ -20,23 +30,20 @@
     }
 
     .leaflet-map {
-
-      &__feature {
-        stroke-width: 4;
-        fill-opacity: .4;
-
-        &--other {
-          stroke: red;
-          fill: red;
-        }
-
-        &--glass {
-          stroke: green;
-          fill: green;
-        }
-
+      .segment {
+          fill: transparent;
+          stroke: black;
+          stroke-width: 6;
       }
-
+      .segment--clothes {
+          stroke: $red;
+      }
+      .segment--glass {
+          stroke: $green;
+      }
+      .segment--paper {
+          stroke: $blue;
+      }
     }
   }
 
@@ -54,7 +61,7 @@
     text-align: right;
 
     h3 {
-      margin: 0;
+      margin: 0 0 10px;
     }
 
     &-list {
@@ -67,6 +74,9 @@
 
     &-item {
 
+      font-size: .8em;
+      line-height: 1.5em;
+
       span {
         display: inline-block;
         width: 10px;
@@ -74,11 +84,15 @@
       }
 
       &--glass span {
-        background-color: green;
+          background-color: $green;
       }
 
-      &--other span {
-        background-color: red;
+      &--clothes span {
+          background-color: $red;
+      }
+
+      &--paper span {
+          background-color: $blue;
       }
 
     }
