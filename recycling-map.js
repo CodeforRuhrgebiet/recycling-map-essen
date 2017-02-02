@@ -11,30 +11,63 @@ req.onreadystatechange = () => {
 req.open("GET", apiUrl, true)
 req.send()
 
+L.RecyclingMarker = L.Marker.extend({
+
+  initialize: function (coords, options) {
+
+    let segments = this._generateSegmentsFromTypes(options.types)
+
+    options.icon = L.segmentedCircleIcon({
+      segments: segments,
+      radius: 12
+    })
+
+    L.Marker.prototype.initialize.call(this, coords, options)
+
+  },
+
+  _generateSegmentsFromTypes: (types) => types.map((type) => {
+    return {
+      className: `segment segment--${type}`
+    }
+  })
+
+})
+
+L.recyclingMarker = (coords, options) => {
+  return new L.RecyclingMarker(coords, options)
+}
+
 const renderMap = ({elements, generator, osm3s}) => {
 
   const recyclingMap = L.map('recycling-map').setView([51.46, 7.02], 13)
   // L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-      maxZoom: 18
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
   }).addTo(recyclingMap)
 
   // get features
   const features = getGeoJSONLayer(elements).features
-  const getCss = tags => {
-    const modifier = tags['recycling:glass'] === 'yes' ? 'glass' : 'other'
-    return `leaflet-map__feature leaflet-map__feature--${modifier}`
+
+  const getTypes = tags => {
+    let props = ['recycling:glass', 'recycling:paper', 'recycling:clothes'];
+    return props.filter((prop) => {
+      return tags.properties[prop] === 'yes'
+    }).map((prop) => {
+      // return as 'glass', 'paper' or 'clothes'
+      return prop.slice((prop.indexOf(':') + 1))
+    })
   }
 
   L.geoJSON(features, {
-    pointToLayer: (f, coords) => L.circleMarker(coords, {
-      className: getCss(f.properties)
-    })
+    pointToLayer: (f, coords) => {
+      const types = getTypes(f)
+      return L.recyclingMarker(coords, {types: types})
+    }
   }).addTo(recyclingMap)
 
 }
-
 
 // convert overpass data to geojson spec
 const getGeoJSONLayer = elements => {
