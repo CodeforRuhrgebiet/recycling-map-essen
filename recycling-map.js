@@ -51,12 +51,20 @@ const renderMap = ({elements, generator, osm3s}) => {
   const features = getGeoJSONLayer(elements).features
 
   const getTypes = tags => {
-    let props = ['recycling:glass', 'recycling:paper', 'recycling:clothes'];
+    let props = ['recycling:glass', 'recycling:glass_bottles', 'recycling:paper', 'recycling:clothes'];
     return props.filter((prop) => {
       return tags.properties[prop] === 'yes'
     }).map((prop) => {
-      // return as 'glass', 'paper' or 'clothes'
-      return prop.slice((prop.indexOf(':') + 1))
+      // 'glass', 'glas_bottles', 'paper' or 'clothes'
+      let identifier = prop.slice((prop.indexOf(':') + 1))
+      // differentiation between glass and glas_bottles unclear, hence we treat them alike
+      // see https://wiki.openstreetmap.org/wiki/DE:Tag:amenity%3Drecycling
+      if (identifier === 'glass_bottles') {
+        identifier = 'glass'
+      }
+      return identifier
+    }).filter((prop, index, arr) => {
+      return (arr.indexOf(prop) === index)
     })
   }
 
