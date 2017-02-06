@@ -47,6 +47,8 @@ const renderMap = ({elements, generator, osm3s}) => {
     maxZoom: 18
   }).addTo(recyclingMap)
 
+  L.control.locate().addTo(recyclingMap)
+
   // get features
   const features = getGeoJSONLayer(elements).features
 
