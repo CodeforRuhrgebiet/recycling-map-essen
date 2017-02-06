@@ -7,6 +7,7 @@
 ### js
 
 `babel recycling-map.js | uglifyjs -c -m > recycling-map.min.js`
+
 `babel segmented-circle-icon.js | uglifyjs -c -m > segmented-circle-icon.min.js`
 
 ### css
