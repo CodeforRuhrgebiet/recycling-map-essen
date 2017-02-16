@@ -12,7 +12,7 @@ L.SegmentedCircleIcon = L.Icon.extend({
     this.options = L.setOptions(this, options)
     this._radius = (this.options.radius) ? this.options.radius : (this.options.iconSize[0] / 2)
 
-    if (typeof this.options.segments === Number) {
+    if (typeof this.options.segments === 'number') {
       this._segments = this._compileSegments(this.options.segments)
     } else {
       this._segments = this.options.segments
@@ -22,7 +22,7 @@ L.SegmentedCircleIcon = L.Icon.extend({
   _compileSegments: function (segmentCount) {
     let segments = []
     for (let i = segmentCount; i > 0; i--) {
-      segment.push({
+      segments.push({
         className: `segment segment-${i}`
       })
     }
@@ -39,6 +39,10 @@ L.SegmentedCircleIcon = L.Icon.extend({
     let svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
     svg.setAttribute('width', this.options.iconSize[0])
     svg.setAttribute('height', this.options.iconSize[1])
+  
+    if (this.options.className) {
+      svg.setAttribute('class', this.options.className)
+    }
 
     // TODO: Some containers do not have any segments. Figure out why
     if (this._segments.length === 0) {
