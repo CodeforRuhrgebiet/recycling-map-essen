@@ -37,28 +37,43 @@ L.SegmentedCircleIcon = L.Icon.extend({
     let endAngle = segmentLength
 
     let svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
-    svg.setAttribute('width', this.options.iconSize[0]);
-    svg.setAttribute('height', this.options.iconSize[1]);
+    svg.setAttribute('width', this.options.iconSize[0])
+    svg.setAttribute('height', this.options.iconSize[1])
 
-    // generate path for each segment
-    this._segments.forEach((segment) => {
+    // TODO: Some containers do not have any segments. Figure out why
+    if (this._segments.length === 0) {
+      return svg;
+    }
 
-      let path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
-      let arc = this._describeArc(
-        (this.options.iconSize[0] / 2),
-        (this.options.iconSize[1] / 2),
-        this._radius,
-        startAngle,
-        endAngle
-      )
+    // draw a full circle if there is only one segment
+    if (this._segments.length === 1) {
+      let circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+      circle.setAttribute('class', this._segments[0].className)
+      circle.setAttribute('cx', this.options.iconSize[0] / 2)
+      circle.setAttribute('cy', this.options.iconSize[1] / 2)
+      circle.setAttribute('r', this._radius)
+      svg.appendChild(circle)
 
-      path.setAttribute('d', arc)
-      path.setAttribute('class', segment.className)
-      svg.appendChild(path)
+      // generate path for each segment
+    } else {
+      this._segments.forEach((segment) => {
+        let path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
+        let arc = this._describeArc(
+          (this.options.iconSize[0] / 2),
+          (this.options.iconSize[1] / 2),
+          this._radius,
+          startAngle,
+          endAngle
+        )
 
-      startAngle = startAngle + segmentLength
-      endAngle = endAngle + segmentLength
-    })
+        path.setAttribute('d', arc)
+        path.setAttribute('class', segment.className)
+        svg.appendChild(path)
+
+        startAngle = startAngle + segmentLength
+        endAngle = endAngle + segmentLength
+      })
+    }
 
     return svg
   },
