@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2017-01-26T19:37:02Z",
-    "timestamp_areas_base": "2017-01-26T18:07:02Z",
+    "timestamp_osm_base": "2017-02-16T19:27:03Z",
+    "timestamp_areas_base": "2017-02-16T17:57:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -28,16 +28,19 @@
 {
   "type": "node",
   "id": 33644263,
-  "lat": 51.4369034,
-  "lon": 7.0281301,
-  "timestamp": "2011-03-17T22:21:22Z",
-  "version": 4,
-  "changeset": 7590682,
-  "user": "mapmann",
-  "uid": 212204,
+  "lat": 51.4368971,
+  "lon": 7.0281670,
+  "timestamp": "2017-02-12T15:14:44Z",
+  "version": 5,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass_bottles": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -147,35 +150,36 @@
 {
   "type": "node",
   "id": 258396850,
-  "lat": 51.4345312,
-  "lon": 6.9796302,
-  "timestamp": "2016-01-29T10:03:30Z",
-  "version": 4,
-  "changeset": 36875781,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4345249,
+  "lon": 6.9796336,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 5,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 262193303,
-  "lat": 51.4270741,
-  "lon": 6.9724811,
-  "timestamp": "2016-01-28T21:18:37Z",
-  "version": 6,
-  "changeset": 36865851,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4270825,
+  "lon": 6.9724771,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 7,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -233,16 +237,18 @@
 {
   "type": "node",
   "id": 265760214,
-  "lat": 51.4246664,
-  "lon": 6.9756148,
-  "timestamp": "2016-01-28T21:18:37Z",
-  "version": 5,
-  "changeset": 36865851,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4245982,
+  "lon": 6.9755732,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 6,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -453,17 +459,20 @@
 {
   "type": "node",
   "id": 280410001,
-  "lat": 51.4202481,
-  "lon": 7.0036492,
-  "timestamp": "2008-07-23T09:51:10Z",
-  "version": 1,
-  "changeset": 573082,
-  "user": "pitje",
-  "uid": 44273,
+  "lat": 51.4201737,
+  "lon": 7.0037994,
+  "timestamp": "2017-02-13T16:41:33Z",
+  "version": 2,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -504,34 +513,37 @@
 {
   "type": "node",
   "id": 281016008,
-  "lat": 51.4130963,
-  "lon": 6.9910299,
-  "timestamp": "2011-01-21T13:00:11Z",
-  "version": 3,
-  "changeset": 7040112,
+  "lat": 51.4131130,
+  "lon": 6.9910346,
+  "timestamp": "2017-02-13T16:41:33Z",
+  "version": 4,
+  "changeset": 46052630,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 281234577,
-  "lat": 51.4209660,
-  "lon": 6.9781060,
-  "timestamp": "2016-01-28T21:18:38Z",
-  "version": 7,
-  "changeset": 36865851,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4209551,
+  "lon": 6.9780842,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 8,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:cans": "no",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -574,24 +586,23 @@
 {
   "type": "node",
   "id": 282567431,
-  "lat": 51.4494687,
-  "lon": 7.0262188,
-  "timestamp": "2016-02-02T20:09:30Z",
-  "version": 6,
-  "changeset": 36965074,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4494840,
+  "lon": 7.0262501,
+  "timestamp": "2017-01-27T17:12:48Z",
+  "version": 7,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:cartons": "yes",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:glass_bottles": "yes",
     "recycling:newspaper": "yes",
     "recycling:paper": "yes",
     "recycling:paper_packaging": "yes",
-    "recycling_type": "container",
-    "source": "bing"
+    "recycling_type": "container"
   }
 },
 {
@@ -850,37 +861,39 @@
 {
   "type": "node",
   "id": 290299715,
-  "lat": 51.4175440,
-  "lon": 7.0107200,
-  "timestamp": "2008-08-24T19:32:26Z",
-  "version": 2,
-  "changeset": 391976,
-  "user": "rotbarsch",
-  "uid": 33160,
+  "lat": 51.4175603,
+  "lon": 7.0106167,
+  "timestamp": "2017-02-13T16:41:33Z",
+  "version": 3,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "created_by": "pitje",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 290299719,
-  "lat": 51.4142657,
-  "lon": 6.9987340,
-  "timestamp": "2008-08-23T00:31:51Z",
-  "version": 1,
-  "changeset": 377185,
-  "user": "pitje",
-  "uid": 44273,
+  "lat": 51.4142762,
+  "lon": 6.9987581,
+  "timestamp": "2017-02-13T16:41:33Z",
+  "version": 2,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "created_by": "pitje",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -899,24 +912,6 @@
     "recycling:clothes": "yes",
     "recycling:glass": "yes",
     "recycling:paper": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 291676300,
-  "lat": 51.4285021,
-  "lon": 7.0113561,
-  "timestamp": "2011-04-04T21:29:51Z",
-  "version": 2,
-  "changeset": 7769935,
-  "user": "vogelfreier",
-  "uid": 74746,
-  "tags": {
-    "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
-    "source": "bing"
   }
 },
 {
@@ -1028,49 +1023,54 @@
 {
   "type": "node",
   "id": 298097989,
-  "lat": 51.4331052,
-  "lon": 6.9953096,
-  "timestamp": "2009-02-13T20:50:10Z",
-  "version": 2,
-  "changeset": 405184,
+  "lat": 51.4329555,
+  "lon": 6.9951158,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 3,
+  "changeset": 46022245,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "created_by": "Potlatch 0.10f",
-    "recycling:glass": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 298097991,
-  "lat": 51.4342717,
-  "lon": 6.9970808,
-  "timestamp": "2016-01-20T10:28:39Z",
-  "version": 3,
-  "changeset": 36697284,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4342675,
+  "lon": 6.9970681,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 4,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 299263776,
-  "lat": 51.4330300,
-  "lon": 6.9931868,
-  "timestamp": "2012-02-01T09:58:30Z",
-  "version": 3,
-  "changeset": 10557170,
+  "lat": 51.4330202,
+  "lon": 6.9931777,
+  "timestamp": "2017-02-06T20:11:58Z",
+  "version": 4,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -1094,70 +1094,75 @@
 {
   "type": "node",
   "id": 299445684,
-  "lat": 51.4317904,
-  "lon": 7.0010007,
-  "timestamp": "2016-01-20T08:28:00Z",
-  "version": 3,
-  "changeset": 36695247,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4317860,
+  "lon": 7.0010171,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 4,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
-    "recycling:paper": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 299696167,
-  "lat": 51.4515459,
-  "lon": 7.0297784,
-  "timestamp": "2016-02-02T09:31:44Z",
-  "version": 10,
-  "changeset": 36953284,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4515375,
+  "lon": 7.0297739,
+  "timestamp": "2017-01-27T17:12:48Z",
+  "version": 11,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 300389879,
-  "lat": 51.4588942,
-  "lon": 7.0164309,
-  "timestamp": "2016-05-08T13:47:32Z",
-  "version": 4,
-  "changeset": 39181629,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "lat": 51.4588934,
+  "lon": 7.0164255,
+  "timestamp": "2017-02-11T16:28:37Z",
+  "version": 5,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "opening_hours": "Mo-Sa 07:00-19:00; PH off",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass_bottles": "yes",
-    "recycling:paper": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 302386413,
-  "lat": 51.4403677,
-  "lon": 7.0257458,
-  "timestamp": "2009-12-02T18:03:47Z",
-  "version": 3,
-  "changeset": 3274035,
-  "user": "ajoessen",
-  "uid": 153031,
+  "lat": 51.4403832,
+  "lon": 7.0256627,
+  "timestamp": "2017-02-03T12:34:13Z",
+  "version": 5,
+  "changeset": 45777128,
+  "user": "klischka",
+  "uid": 2743067,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -1363,16 +1368,18 @@
 {
   "type": "node",
   "id": 314928512,
-  "lat": 51.4548526,
-  "lon": 7.0439133,
-  "timestamp": "2015-04-08T10:28:06Z",
-  "version": 6,
-  "changeset": 30060170,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4548624,
+  "lon": 7.0439032,
+  "timestamp": "2017-02-05T09:28:02Z",
+  "version": 7,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -1380,35 +1387,36 @@
 {
   "type": "node",
   "id": 314929667,
-  "lat": 51.4510990,
-  "lon": 7.0438212,
-  "timestamp": "2015-05-30T11:53:12Z",
-  "version": 5,
-  "changeset": 31582737,
+  "lat": 51.4511116,
+  "lon": 7.0438108,
+  "timestamp": "2017-02-05T16:06:32Z",
+  "version": 7,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "Entsorgungsbetriebe Essen (EBE)",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 315888340,
-  "lat": 51.4462364,
-  "lon": 7.0394051,
-  "timestamp": "2014-09-30T20:14:30Z",
-  "version": 3,
-  "changeset": 25777072,
+  "lat": 51.4462431,
+  "lon": 7.0393903,
+  "timestamp": "2017-02-05T16:06:32Z",
+  "version": 4,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -1450,18 +1458,18 @@
 {
   "type": "node",
   "id": 316990585,
-  "lat": 51.4467149,
-  "lon": 7.0555755,
-  "timestamp": "2012-07-08T19:17:11Z",
-  "version": 2,
-  "changeset": 12153981,
+  "lat": 51.4467199,
+  "lon": 7.0555829,
+  "timestamp": "2017-02-05T16:06:32Z",
+  "version": 3,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -1549,18 +1557,18 @@
 {
   "type": "node",
   "id": 321432420,
-  "lat": 51.4484043,
-  "lon": 7.0337910,
-  "timestamp": "2013-01-23T00:01:36Z",
-  "version": 5,
-  "changeset": 14752397,
+  "lat": 51.4483949,
+  "lon": 7.0337907,
+  "timestamp": "2017-01-27T17:12:48Z",
+  "version": 6,
+  "changeset": 45567523,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -1721,33 +1729,36 @@
 {
   "type": "node",
   "id": 330039041,
-  "lat": 51.4534746,
-  "lon": 7.0033812,
-  "timestamp": "2009-01-18T23:39:14Z",
-  "version": 2,
-  "changeset": 810026,
-  "user": "Andre68",
-  "uid": 31231,
+  "lat": 51.4534956,
+  "lon": 7.0034678,
+  "timestamp": "2017-02-05T15:49:43Z",
+  "version": 3,
+  "changeset": 45832428,
+  "user": "Ruhrpottkast",
+  "uid": 4800943,
   "tags": {
     "amenity": "recycling",
     "recycling:clothes": "yes",
     "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 330064148,
-  "lat": 51.4506090,
-  "lon": 7.0261419,
-  "timestamp": "2016-02-02T13:34:50Z",
-  "version": 7,
-  "changeset": 36957261,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4505935,
+  "lon": 7.0261473,
+  "timestamp": "2017-02-05T09:28:02Z",
+  "version": 8,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -1755,54 +1766,55 @@
 {
   "type": "node",
   "id": 331327350,
-  "lat": 51.4453200,
-  "lon": 7.0525072,
-  "timestamp": "2011-06-21T11:47:11Z",
-  "version": 7,
-  "changeset": 8503813,
-  "user": "apo-gps",
-  "uid": 60273,
+  "lat": 51.4453183,
+  "lon": 7.0525287,
+  "timestamp": "2017-02-05T16:06:32Z",
+  "version": 8,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
-    "source": "bing"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 331538220,
-  "lat": 51.4461025,
-  "lon": 7.0510283,
-  "timestamp": "2013-04-16T12:36:07Z",
-  "version": 5,
-  "changeset": 15749263,
+  "lat": 51.4460981,
+  "lon": 7.0510125,
+  "timestamp": "2017-02-05T16:06:33Z",
+  "version": 6,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "Entsorgungsbetriebe Essen (EBE)",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 331549271,
-  "lat": 51.4467040,
-  "lon": 7.0430860,
-  "timestamp": "2011-05-29T22:43:21Z",
-  "version": 4,
-  "changeset": 8286962,
+  "lat": 51.4467036,
+  "lon": 7.0431262,
+  "timestamp": "2017-02-05T16:06:33Z",
+  "version": 5,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
-    "source": "bing"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -1840,35 +1852,36 @@
 {
   "type": "node",
   "id": 331860329,
-  "lat": 51.4434227,
-  "lon": 7.0321135,
-  "timestamp": "2012-07-19T09:06:05Z",
-  "version": 6,
-  "changeset": 12315208,
+  "lat": 51.4433316,
+  "lon": 7.0322302,
+  "timestamp": "2017-02-05T16:06:33Z",
+  "version": 7,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 331864859,
-  "lat": 51.4459416,
-  "lon": 7.0241097,
-  "timestamp": "2016-05-13T15:40:13Z",
-  "version": 6,
-  "changeset": 39295216,
+  "lat": 51.4459487,
+  "lon": 7.0241063,
+  "timestamp": "2017-01-27T17:12:48Z",
+  "version": 7,
+  "changeset": 45567523,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "EBE",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -1907,17 +1920,19 @@
 {
   "type": "node",
   "id": 332056473,
-  "lat": 51.4471848,
-  "lon": 7.0280071,
-  "timestamp": "2013-01-27T16:03:18Z",
-  "version": 5,
-  "changeset": 14809693,
+  "lat": 51.4471844,
+  "lon": 7.0279940,
+  "timestamp": "2017-01-27T17:12:49Z",
+  "version": 6,
+  "changeset": 45567523,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
@@ -1990,32 +2005,36 @@
 {
   "type": "node",
   "id": 334361596,
-  "lat": 51.4429724,
-  "lon": 7.0529779,
-  "timestamp": "2011-06-27T16:51:01Z",
-  "version": 5,
-  "changeset": 8563852,
+  "lat": 51.4429795,
+  "lon": 7.0529893,
+  "timestamp": "2017-02-05T16:06:33Z",
+  "version": 6,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 335713513,
-  "lat": 51.4528131,
-  "lon": 7.0230683,
-  "timestamp": "2015-04-07T13:48:18Z",
-  "version": 3,
-  "changeset": 30040057,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4528047,
+  "lon": 7.0230777,
+  "timestamp": "2017-02-05T09:28:02Z",
+  "version": 4,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -2023,33 +2042,17 @@
 {
   "type": "node",
   "id": 336073852,
-  "lat": 51.4240479,
-  "lon": 7.0049650,
-  "timestamp": "2011-04-04T21:29:56Z",
-  "version": 3,
-  "changeset": 7769935,
+  "lat": 51.4240508,
+  "lon": 7.0049556,
+  "timestamp": "2017-02-13T16:41:34Z",
+  "version": 4,
+  "changeset": 46052630,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "source": "bing"
-  }
-},
-{
-  "type": "node",
-  "id": 336076276,
-  "lat": 51.4358760,
-  "lon": 7.0152545,
-  "timestamp": "2016-11-01T20:46:13Z",
-  "version": 3,
-  "changeset": 43337018,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
-  "tags": {
-    "amenity": "recycling",
-    "recycling:clothes": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
@@ -2057,17 +2060,18 @@
 {
   "type": "node",
   "id": 336076557,
-  "lat": 51.4371097,
-  "lon": 7.0153802,
-  "timestamp": "2016-11-01T20:43:59Z",
-  "version": 5,
-  "changeset": 43336965,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "lat": 51.4371544,
+  "lon": 7.0154010,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 7,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
-    "recycling:paper": "yes",
     "recycling_type": "container"
   }
 },
@@ -2180,33 +2184,37 @@
 {
   "type": "node",
   "id": 339826104,
-  "lat": 51.4428669,
-  "lon": 6.9870752,
-  "timestamp": "2009-02-01T19:18:43Z",
-  "version": 2,
-  "changeset": 38506,
+  "lat": 51.4428987,
+  "lon": 6.9869082,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 3,
+  "changeset": 45952002,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "created_by": "Potlatch 0.10f",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 339832129,
-  "lat": 51.4396638,
-  "lon": 6.9885429,
-  "timestamp": "2011-10-28T10:43:05Z",
-  "version": 3,
-  "changeset": 9675342,
+  "lat": 51.4396492,
+  "lon": 6.9885422,
+  "timestamp": "2017-02-06T20:11:58Z",
+  "version": 4,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -2214,15 +2222,17 @@
 {
   "type": "node",
   "id": 339843655,
-  "lat": 51.4417560,
-  "lon": 6.9979089,
-  "timestamp": "2017-01-24T20:48:09Z",
-  "version": 8,
-  "changeset": 45449431,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "lat": 51.4417472,
+  "lon": 6.9979112,
+  "timestamp": "2017-02-06T20:11:58Z",
+  "version": 9,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
@@ -2481,17 +2491,18 @@
 {
   "type": "node",
   "id": 344448891,
-  "lat": 51.4634651,
-  "lon": 7.0147455,
-  "timestamp": "2014-05-19T19:34:56Z",
-  "version": 6,
-  "changeset": 22431644,
+  "lat": 51.4634542,
+  "lon": 7.0147193,
+  "timestamp": "2017-02-11T16:28:37Z",
+  "version": 7,
+  "changeset": 46001732,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -2499,25 +2510,19 @@
 {
   "type": "node",
   "id": 344479787,
-  "lat": 51.4374380,
-  "lon": 6.9882800,
-  "timestamp": "2015-03-02T22:05:58Z",
-  "version": 5,
-  "changeset": 29209995,
-  "user": "mchlblzr",
-  "uid": 2723231,
+  "lat": 51.4374280,
+  "lon": 6.9882659,
+  "timestamp": "2017-02-06T20:11:59Z",
+  "version": 6,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:batteries": "no",
-    "recycling:cans": "no",
-    "recycling:cardboard": "no",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:glass_bottles": "yes",
-    "recycling:green_waste": "no",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
-    "recycling:plastic": "no",
-    "recycling:scrap_metal": "no",
     "recycling_type": "container"
   }
 },
@@ -2628,21 +2633,6 @@
 },
 {
   "type": "node",
-  "id": 346265688,
-  "lat": 51.4379952,
-  "lon": 6.9838372,
-  "timestamp": "2014-06-09T16:06:06Z",
-  "version": 2,
-  "changeset": 22833131,
-  "user": "vogelfreier",
-  "uid": 74746,
-  "tags": {
-    "amenity": "recycling",
-    "recycling:clothes": "yes"
-  }
-},
-{
-  "type": "node",
   "id": 346269545,
   "lat": 51.4478189,
   "lon": 6.9669459,
@@ -2663,16 +2653,17 @@
   "id": 347348598,
   "lat": 51.4400989,
   "lon": 6.9788380,
-  "timestamp": "2017-01-05T10:55:09Z",
-  "version": 3,
-  "changeset": 44921431,
+  "timestamp": "2017-01-27T20:37:24Z",
+  "version": 4,
+  "changeset": 45573755,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
     "capacity": "6",
-    "name": "Papier",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
     "operator": "Essener Entsorgungsbetribe Essen (EBE)",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -3007,18 +2998,20 @@
 {
   "type": "node",
   "id": 349900778,
-  "lat": 51.4231870,
-  "lon": 6.9802798,
-  "timestamp": "2013-11-29T09:34:38Z",
-  "version": 2,
-  "changeset": 19174945,
-  "user": "Oliver_Brülls__Essen_GER",
-  "uid": 1763065,
+  "lat": 51.4231381,
+  "lon": 6.9802094,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 3,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -3075,20 +3068,18 @@
 {
   "type": "node",
   "id": 352651663,
-  "lat": 51.4394230,
-  "lon": 7.0022470,
-  "timestamp": "2015-03-03T10:27:48Z",
-  "version": 5,
-  "changeset": 29218890,
-  "user": "mchlblzr",
-  "uid": 2723231,
+  "lat": 51.4394192,
+  "lon": 7.0022282,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 6,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:batteries": "no",
-    "recycling:cans": "no",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -3097,16 +3088,16 @@
   "id": 352749253,
   "lat": 51.4406717,
   "lon": 6.9841642,
-  "timestamp": "2017-01-05T11:29:22Z",
-  "version": 3,
-  "changeset": 44922055,
+  "timestamp": "2017-01-27T20:23:50Z",
+  "version": 4,
+  "changeset": 45573254,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "name": "Glas",
-    "operator": "Essener Entsorgungsbetribe Essen (EBE)",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -3115,15 +3106,16 @@
   "id": 352749291,
   "lat": 51.4397773,
   "lon": 6.9835750,
-  "timestamp": "2017-01-05T11:29:22Z",
-  "version": 3,
-  "changeset": 44922055,
+  "timestamp": "2017-01-27T20:23:50Z",
+  "version": 4,
+  "changeset": 45573254,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "Essener Entsorgungsbetribe Essen (EBE)",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -3132,14 +3124,14 @@
   "id": 353353926,
   "lat": 51.4504802,
   "lon": 6.9829621,
-  "timestamp": "2011-11-02T17:25:40Z",
-  "version": 2,
-  "changeset": 9723918,
-  "user": "vogelfreier",
-  "uid": 74746,
+  "timestamp": "2017-01-29T11:30:23Z",
+  "version": 3,
+  "changeset": 45617629,
+  "user": "Graf Westerholt",
+  "uid": 1318877,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container",
     "source": "bing"
   }
@@ -3265,15 +3257,18 @@
 {
   "type": "node",
   "id": 354594933,
-  "lat": 51.4440598,
-  "lon": 6.9876808,
-  "timestamp": "2015-06-24T17:29:37Z",
-  "version": 2,
-  "changeset": 32188422,
-  "user": "Mond00",
-  "uid": 861006,
+  "lat": 51.4440498,
+  "lon": 6.9876184,
+  "timestamp": "2017-02-06T20:11:59Z",
+  "version": 3,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -3349,51 +3344,36 @@
 {
   "type": "node",
   "id": 356220152,
-  "lat": 51.4349713,
-  "lon": 7.0018526,
-  "timestamp": "2016-01-20T10:28:40Z",
-  "version": 2,
-  "changeset": 36697284,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4349669,
+  "lon": 7.0018332,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 3,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 356220705,
-  "lat": 51.4340418,
-  "lon": 7.0054836,
-  "timestamp": "2011-03-15T17:24:14Z",
-  "version": 4,
-  "changeset": 7568172,
+  "lat": 51.4340477,
+  "lon": 7.0054937,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 5,
+  "changeset": 46022245,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "source": "bing"
-  }
-},
-{
-  "type": "node",
-  "id": 356315689,
-  "lat": 51.4382447,
-  "lon": 6.9909219,
-  "timestamp": "2016-01-29T15:49:14Z",
-  "version": 3,
-  "changeset": 36881974,
-  "user": "dachefte",
-  "uid": 133419,
-  "tags": {
-    "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -3414,16 +3394,19 @@
 {
   "type": "node",
   "id": 356620764,
-  "lat": 51.4452117,
-  "lon": 6.9802207,
-  "timestamp": "2011-05-14T18:41:06Z",
-  "version": 2,
-  "changeset": 8144242,
-  "user": "StD",
-  "uid": 91078,
+  "lat": 51.4451958,
+  "lon": 6.9801798,
+  "timestamp": "2017-02-06T20:11:59Z",
+  "version": 3,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -3513,17 +3496,18 @@
 {
   "type": "node",
   "id": 362594075,
-  "lat": 51.4477235,
-  "lon": 7.0267590,
-  "timestamp": "2013-01-27T16:03:18Z",
-  "version": 11,
-  "changeset": 14809693,
+  "lat": 51.4476988,
+  "lon": 7.0267553,
+  "timestamp": "2017-02-05T09:28:02Z",
+  "version": 12,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -3706,16 +3690,20 @@
 {
   "type": "node",
   "id": 364688332,
-  "lat": 51.4435209,
-  "lon": 6.9831485,
-  "timestamp": "2009-03-22T13:14:39Z",
-  "version": 1,
-  "changeset": 846346,
-  "user": "YvonneBentele",
-  "uid": 94327,
+  "lat": 51.4435639,
+  "lon": 6.9830928,
+  "timestamp": "2017-02-06T20:11:59Z",
+  "version": 2,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -3723,32 +3711,36 @@
   "id": 364688449,
   "lat": 51.4316394,
   "lon": 6.9716899,
-  "timestamp": "2013-12-02T08:07:11Z",
-  "version": 2,
-  "changeset": 19228801,
-  "user": "Oliver_Brülls__Essen_GER",
-  "uid": 1763065,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 3,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 364689056,
-  "lat": 51.4284847,
-  "lon": 6.9732611,
-  "timestamp": "2013-11-25T12:31:27Z",
-  "version": 2,
-  "changeset": 19108583,
-  "user": "Oliver_Brülls__Essen_GER",
-  "uid": 1763065,
+  "lat": 51.4284906,
+  "lon": 6.9732457,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 3,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -3788,49 +3780,57 @@
 {
   "type": "node",
   "id": 371102411,
-  "lat": 51.4473139,
-  "lon": 7.0372601,
-  "timestamp": "2009-07-17T11:31:05Z",
-  "version": 2,
-  "changeset": 1852800,
+  "lat": 51.4469892,
+  "lon": 7.0372158,
+  "timestamp": "2017-02-04T13:20:37Z",
+  "version": 3,
+  "changeset": 45805134,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 371102424,
-  "lat": 51.4472681,
-  "lon": 7.0370356,
-  "timestamp": "2009-04-09T12:44:34Z",
-  "version": 1,
-  "changeset": 343420,
+  "lat": 51.4467616,
+  "lon": 7.0367768,
+  "timestamp": "2017-02-04T13:20:37Z",
+  "version": 2,
+  "changeset": 45805134,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass": "yes"
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 371642007,
-  "lat": 51.4483092,
-  "lon": 7.0439620,
-  "timestamp": "2009-04-10T18:40:32Z",
-  "version": 1,
-  "changeset": 375828,
+  "lat": 51.4483393,
+  "lon": 7.0439077,
+  "timestamp": "2017-02-05T09:28:02Z",
+  "version": 2,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -3868,19 +3868,18 @@
 {
   "type": "node",
   "id": 374273657,
-  "lat": 51.4553217,
-  "lon": 7.0341021,
-  "timestamp": "2013-10-26T16:18:18Z",
-  "version": 7,
-  "changeset": 18553797,
+  "lat": 51.4551548,
+  "lon": 7.0341450,
+  "timestamp": "2017-02-05T09:28:03Z",
+  "version": 8,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "note": "NEUER STANDORT",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "no",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -4325,18 +4324,18 @@
 {
   "type": "node",
   "id": 420792520,
-  "lat": 51.4527012,
-  "lon": 6.9870773,
-  "timestamp": "2014-11-12T15:39:16Z",
-  "version": 4,
-  "changeset": 26737428,
+  "lat": 51.4526966,
+  "lon": 6.9870746,
+  "timestamp": "2017-02-06T20:11:59Z",
+  "version": 5,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:cans": "no",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -4362,14 +4361,18 @@
   "id": 422927158,
   "lat": 51.4651727,
   "lon": 6.9952542,
-  "timestamp": "2016-02-22T15:50:56Z",
-  "version": 3,
-  "changeset": 37370374,
-  "user": "dachefte",
-  "uid": 133419,
+  "timestamp": "2017-02-11T17:21:17Z",
+  "version": 4,
+  "changeset": 46002991,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
     "name": "Recyclingstation Pferdebahn",
+    "opening_hours": "Mo-Fr 08:00-15:00; PH Sa,Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:garden_waste": "yes",
+    "recycling:green_waste": "yes",
     "recycling_type": "centre"
   }
 },
@@ -4492,17 +4495,20 @@
 {
   "type": "node",
   "id": 429298981,
-  "lat": 51.4456891,
-  "lon": 6.9816263,
-  "timestamp": "2009-06-25T18:02:29Z",
-  "version": 1,
-  "changeset": 1624661,
-  "user": "YvonneBentele",
-  "uid": 94327,
+  "lat": 51.4457021,
+  "lon": 6.9816082,
+  "timestamp": "2017-02-06T20:11:59Z",
+  "version": 2,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -4578,34 +4584,37 @@
 {
   "type": "node",
   "id": 451832758,
-  "lat": 51.4439931,
-  "lon": 7.0024287,
-  "timestamp": "2009-07-31T11:03:18Z",
-  "version": 2,
-  "changeset": 1992463,
-  "user": "xybot",
-  "uid": 70696,
+  "lat": 51.4439902,
+  "lon": 7.0024025,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 3,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 454515559,
-  "lat": 51.4361873,
-  "lon": 7.0200575,
-  "timestamp": "2016-01-20T19:29:27Z",
-  "version": 4,
-  "changeset": 36707907,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4361844,
+  "lon": 7.0200602,
+  "timestamp": "2017-02-12T15:14:45Z",
+  "version": 5,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -4710,19 +4719,19 @@
 {
   "type": "node",
   "id": 571102356,
-  "lat": 51.4489663,
-  "lon": 7.0388997,
-  "timestamp": "2011-03-25T18:17:06Z",
-  "version": 2,
-  "changeset": 7667949,
+  "lat": 51.4489308,
+  "lon": 7.0388675,
+  "timestamp": "2017-02-04T13:20:37Z",
+  "version": 3,
+  "changeset": 45805134,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
-    "source": "bing"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -4730,15 +4739,17 @@
   "id": 577977344,
   "lat": 51.4378837,
   "lon": 7.0294819,
-  "timestamp": "2016-12-14T22:05:57Z",
-  "version": 2,
-  "changeset": 44409456,
-  "user": "Sisi von Wittelsbach",
-  "uid": 3801334,
+  "timestamp": "2017-01-27T17:12:49Z",
+  "version": 3,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
-    "recycling:paper": "yes"
+    "recycling_type": "container"
   }
 },
 {
@@ -4791,30 +4802,39 @@
 {
   "type": "node",
   "id": 608517582,
-  "lat": 51.4632513,
-  "lon": 7.0028330,
-  "timestamp": "2012-03-03T21:03:03Z",
-  "version": 2,
-  "changeset": 10862338,
+  "lat": 51.4634832,
+  "lon": 7.0026191,
+  "timestamp": "2017-02-11T16:28:37Z",
+  "version": 3,
+  "changeset": 46001732,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
-    "amenity": "recycling"
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 617805767,
-  "lat": 51.4513603,
-  "lon": 7.0028985,
-  "timestamp": "2010-01-21T19:26:51Z",
-  "version": 1,
-  "changeset": 3676798,
+  "lat": 51.4513921,
+  "lon": 7.0029012,
+  "timestamp": "2017-01-27T17:12:49Z",
+  "version": 2,
+  "changeset": 45567523,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Deutsches Rote Kreuz",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
   }
 },
 {
@@ -5044,32 +5064,39 @@
 {
   "type": "node",
   "id": 701353163,
-  "lat": 51.4427970,
-  "lon": 7.0562818,
-  "timestamp": "2010-04-18T19:00:23Z",
-  "version": 1,
-  "changeset": 4461505,
-  "user": "YvonneBentele",
-  "uid": 94327,
+  "lat": 51.4428095,
+  "lon": 7.0564206,
+  "timestamp": "2017-02-05T16:06:33Z",
+  "version": 2,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 702436563,
-  "lat": 51.4319040,
-  "lon": 6.9764874,
-  "timestamp": "2016-03-20T16:03:41Z",
-  "version": 6,
-  "changeset": 37958391,
-  "user": "Ogmios",
-  "uid": 81983,
+  "lat": 51.4318915,
+  "lon": 6.9764612,
+  "timestamp": "2017-02-09T16:53:51Z",
+  "version": 7,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "capacity": "6",
+    "location": "underground",
+    "note": "von 6en nur noch 2e in Betrieb",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5077,17 +5104,18 @@
 {
   "type": "node",
   "id": 748232064,
-  "lat": 51.4123845,
-  "lon": 6.9815729,
-  "timestamp": "2015-07-22T22:04:18Z",
-  "version": 3,
-  "changeset": 32813939,
-  "user": "Yendred",
-  "uid": 2979053,
+  "lat": 51.4123736,
+  "lon": 6.9815699,
+  "timestamp": "2017-02-13T16:41:34Z",
+  "version": 4,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5113,17 +5141,18 @@
 {
   "type": "node",
   "id": 825488110,
-  "lat": 51.4459467,
-  "lon": 7.0585616,
-  "timestamp": "2014-10-28T17:26:28Z",
-  "version": 3,
-  "changeset": 26392569,
+  "lat": 51.4459137,
+  "lon": 7.0585368,
+  "timestamp": "2017-02-05T16:06:33Z",
+  "version": 4,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5141,24 +5170,6 @@
   "tags": {
     "amenity": "recycling",
     "recycling_type": "container"
-  }
-},
-{
-  "type": "node",
-  "id": 825488159,
-  "lat": 51.4430786,
-  "lon": 7.0529816,
-  "timestamp": "2010-07-20T07:41:42Z",
-  "version": 1,
-  "changeset": 5268008,
-  "user": "changchun_1",
-  "uid": 131968,
-  "tags": {
-    "amenity": "recycling",
-    "recycling:cans": "no",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes"
   }
 },
 {
@@ -5281,17 +5292,18 @@
 {
   "type": "node",
   "id": 918045472,
-  "lat": 51.4683800,
-  "lon": 7.0136587,
-  "timestamp": "2016-03-05T15:53:23Z",
-  "version": 2,
-  "changeset": 37629686,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4683992,
+  "lon": 7.0136486,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 3,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5351,17 +5363,18 @@
 {
   "type": "node",
   "id": 1007132919,
-  "lat": 51.4572443,
-  "lon": 7.0203044,
-  "timestamp": "2012-12-26T04:18:57Z",
-  "version": 3,
-  "changeset": 14408223,
+  "lat": 51.4572088,
+  "lon": 7.0203138,
+  "timestamp": "2017-01-27T17:12:49Z",
+  "version": 4,
+  "changeset": 45567523,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5378,7 +5391,7 @@
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "name": "Sammelstelle für Gartenabfälle",
+    "name": "Sammelstelle fÃ¼r GartenabfÃ¤lle",
     "recycling:green_waste": "yes",
     "recycling_type": "container",
     "wheelchair": "no"
@@ -5440,16 +5453,18 @@
 {
   "type": "node",
   "id": 1192411187,
-  "lat": 51.4497257,
-  "lon": 7.0449155,
-  "timestamp": "2013-04-15T15:30:37Z",
-  "version": 2,
-  "changeset": 15738587,
+  "lat": 51.4497115,
+  "lon": 7.0449289,
+  "timestamp": "2017-02-05T09:28:03Z",
+  "version": 3,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "Entsorgungsbetriebe Essen (EBE)",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5526,18 +5541,18 @@
 {
   "type": "node",
   "id": 1234551434,
-  "lat": 51.4445614,
-  "lon": 7.0392227,
-  "timestamp": "2016-12-26T10:41:39Z",
-  "version": 2,
-  "changeset": 44679357,
+  "lat": 51.4445616,
+  "lon": 7.0392264,
+  "timestamp": "2017-02-05T16:06:34Z",
+  "version": 3,
+  "changeset": 45832849,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "Essener Entsorgungsbetriebe (EBE)",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -5646,18 +5661,20 @@
 {
   "type": "node",
   "id": 1242535926,
-  "lat": 51.4127693,
-  "lon": 6.9924813,
-  "timestamp": "2011-04-12T21:20:27Z",
-  "version": 1,
-  "changeset": 7847039,
+  "lat": 51.4128187,
+  "lon": 6.9924994,
+  "timestamp": "2017-02-13T16:41:34Z",
+  "version": 2,
+  "changeset": 46052630,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
-    "source": "bing"
+    "recycling_type": "container"
   }
 },
 {
@@ -5861,17 +5878,18 @@
 {
   "type": "node",
   "id": 1374648012,
-  "lat": 51.4432857,
-  "lon": 6.9897400,
-  "timestamp": "2013-03-11T17:06:49Z",
-  "version": 2,
-  "changeset": 15330160,
+  "lat": 51.4432836,
+  "lon": 6.9897615,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 3,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5879,16 +5897,18 @@
 {
   "type": "node",
   "id": 1424901772,
-  "lat": 51.4480771,
-  "lon": 7.0483434,
-  "timestamp": "2014-10-29T10:47:56Z",
-  "version": 2,
-  "changeset": 26408864,
+  "lat": 51.4480868,
+  "lon": 7.0483414,
+  "timestamp": "2017-02-05T09:28:03Z",
+  "version": 3,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -5896,32 +5916,36 @@
 {
   "type": "node",
   "id": 1437770830,
-  "lat": 51.4478776,
-  "lon": 7.0582540,
-  "timestamp": "2011-09-19T20:35:58Z",
-  "version": 1,
-  "changeset": 9346632,
-  "user": "DocGo",
-  "uid": 16206,
+  "lat": 51.4478738,
+  "lon": 7.0582688,
+  "timestamp": "2017-02-05T16:06:34Z",
+  "version": 2,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 1437771210,
-  "lat": 51.4478323,
-  "lon": 7.0584327,
-  "timestamp": "2011-09-19T20:36:42Z",
-  "version": 1,
-  "changeset": 9346632,
-  "user": "DocGo",
-  "uid": 16206,
+  "lat": 51.4478277,
+  "lon": 7.0584347,
+  "timestamp": "2017-02-05T16:06:34Z",
+  "version": 2,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
@@ -5980,16 +6004,18 @@
 {
   "type": "node",
   "id": 1477549890,
-  "lat": 51.4223576,
-  "lon": 7.0075002,
-  "timestamp": "2011-10-23T08:56:28Z",
-  "version": 1,
-  "changeset": 9630526,
+  "lat": 51.4223635,
+  "lon": 7.0075082,
+  "timestamp": "2017-02-13T16:41:34Z",
+  "version": 2,
+  "changeset": 46052630,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -6083,17 +6109,18 @@
 {
   "type": "node",
   "id": 1544283710,
-  "lat": 51.4680895,
-  "lon": 7.0211505,
-  "timestamp": "2016-02-03T10:51:08Z",
-  "version": 2,
-  "changeset": 36974485,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4681225,
+  "lon": 7.0211056,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 3,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -6149,16 +6176,18 @@
 {
   "type": "node",
   "id": 1561775040,
-  "lat": 51.4273246,
-  "lon": 6.9760155,
-  "timestamp": "2011-12-25T19:26:22Z",
-  "version": 1,
-  "changeset": 10202447,
+  "lat": 51.4273208,
+  "lon": 6.9759726,
+  "timestamp": "2017-02-09T17:13:07Z",
+  "version": 2,
+  "changeset": 45952441,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -6166,50 +6195,54 @@
 {
   "type": "node",
   "id": 1569026301,
-  "lat": 51.4539851,
-  "lon": 7.0260659,
-  "timestamp": "2015-05-20T15:19:45Z",
-  "version": 2,
-  "changeset": 31317781,
+  "lat": 51.4539738,
+  "lon": 7.0260807,
+  "timestamp": "2017-02-05T09:28:03Z",
+  "version": 3,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 1569027171,
-  "lat": 51.4661146,
-  "lon": 6.9998655,
-  "timestamp": "2011-12-30T11:01:22Z",
-  "version": 1,
-  "changeset": 10243945,
+  "lat": 51.4661096,
+  "lon": 6.9998192,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 2,
+  "changeset": 46001732,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 1572531085,
-  "lat": 51.4596202,
-  "lon": 7.0087370,
-  "timestamp": "2017-01-17T07:40:12Z",
-  "version": 3,
-  "changeset": 45235669,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "lat": 51.4596116,
+  "lon": 7.0087159,
+  "timestamp": "2017-01-27T17:12:49Z",
+  "version": 4,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -6235,15 +6268,16 @@
   "id": 1578646548,
   "lat": 51.4602856,
   "lon": 7.0125736,
-  "timestamp": "2016-06-07T06:41:57Z",
-  "version": 2,
-  "changeset": 39854321,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 4,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -6628,18 +6662,18 @@
 {
   "type": "node",
   "id": 1658107542,
-  "lat": 51.4274421,
-  "lon": 6.9646652,
-  "timestamp": "2012-03-03T21:02:35Z",
-  "version": 1,
-  "changeset": 10862338,
+  "lat": 51.4274486,
+  "lon": 6.9646612,
+  "timestamp": "2017-02-14T14:14:36Z",
+  "version": 2,
+  "changeset": 46080174,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -6714,17 +6748,18 @@
 {
   "type": "node",
   "id": 1711827405,
-  "lat": 51.4674829,
-  "lon": 7.0027676,
-  "timestamp": "2016-03-05T10:07:43Z",
-  "version": 3,
-  "changeset": 37624220,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4674562,
+  "lon": 7.0027220,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 4,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -6954,20 +6989,19 @@
 {
   "type": "node",
   "id": 1846945676,
-  "lat": 51.4422687,
-  "lon": 6.9840822,
-  "timestamp": "2017-01-05T11:29:23Z",
-  "version": 2,
-  "changeset": 44922055,
+  "lat": 51.4422706,
+  "lon": 6.9840881,
+  "timestamp": "2017-01-27T20:23:50Z",
+  "version": 3,
+  "changeset": 45573254,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "name": "Papier, Kleidung, Glas",
-    "operator": "Essener Entsorgungsbetribe Essen (EBE)",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
@@ -6989,20 +7023,18 @@
 {
   "type": "node",
   "id": 1861245540,
-  "lat": 51.4374568,
-  "lon": 7.0063079,
-  "timestamp": "2016-09-08T08:46:42Z",
-  "version": 4,
-  "changeset": 41998108,
-  "user": "breeen",
-  "uid": 367191,
+  "lat": 51.4374430,
+  "lon": 7.0063119,
+  "timestamp": "2017-02-12T15:14:46Z",
+  "version": 5,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "description": "5 Glas- + 1 Altkleidercontainer",
-    "opening_hours": "Mo-Sa 07:00-19:00",
-    "operator": "EBE;Rhenus Logistics",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -7011,14 +7043,16 @@
   "id": 1887392819,
   "lat": 51.4519096,
   "lon": 6.9862181,
-  "timestamp": "2012-08-28T19:51:53Z",
-  "version": 1,
-  "changeset": 12897194,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 2,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container",
     "source": "bing"
@@ -7077,17 +7111,19 @@
 {
   "type": "node",
   "id": 1913795193,
-  "lat": 51.4493607,
-  "lon": 6.9828955,
-  "timestamp": "2016-03-07T21:05:30Z",
-  "version": 2,
-  "changeset": 37674541,
-  "user": "Ogmios",
-  "uid": 81983,
+  "lat": 51.4492554,
+  "lon": 6.9828687,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 3,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
-    "recycling:glass_bottles": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
     "recycling_type": "container"
   }
 },
@@ -7340,69 +7376,54 @@
 {
   "type": "node",
   "id": 2263150627,
-  "lat": 51.4269908,
-  "lon": 6.9631556,
-  "timestamp": "2016-03-19T10:18:26Z",
-  "version": 2,
-  "changeset": 37935631,
-  "user": "dachefte",
-  "uid": 133419,
-  "tags": {
-    "amenity": "recycling",
-    "operator": "Essener Entsorgungsbetriebe (EBE)",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling_type": "container"
-  }
-},
-{
-  "type": "node",
-  "id": 2268360546,
-  "lat": 51.4470041,
-  "lon": 7.0486616,
-  "timestamp": "2013-04-15T15:30:26Z",
-  "version": 1,
-  "changeset": 15738587,
+  "lat": 51.4269757,
+  "lon": 6.9631522,
+  "timestamp": "2017-02-14T14:14:36Z",
+  "version": 3,
+  "changeset": 46080174,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "unbekannt",
-    "recycling:shoes": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 2268360607,
-  "lat": 51.4492808,
-  "lon": 7.0455953,
-  "timestamp": "2013-04-15T15:30:28Z",
-  "version": 1,
-  "changeset": 15738587,
+  "lat": 51.4492689,
+  "lon": 7.0455997,
+  "timestamp": "2017-02-05T09:28:03Z",
+  "version": 2,
+  "changeset": 45824105,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "operator": "Entsorgungsbetriebe Essen (EBE)",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 2470291036,
-  "lat": 51.4433820,
-  "lon": 7.0010559,
-  "timestamp": "2013-09-24T18:19:26Z",
-  "version": 1,
-  "changeset": 18014015,
+  "lat": 51.4434969,
+  "lon": 7.0012048,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 2,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -7442,18 +7463,18 @@
 {
   "type": "node",
   "id": 2674606860,
-  "lat": 51.4454031,
-  "lon": 7.0213516,
-  "timestamp": "2015-04-07T13:48:16Z",
-  "version": 3,
-  "changeset": 30040057,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4454069,
+  "lon": 7.0213550,
+  "timestamp": "2017-02-09T16:53:52Z",
+  "version": 4,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
-    "recycling:paper": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -7562,31 +7583,32 @@
   "id": 2985838643,
   "lat": 51.4589055,
   "lon": 6.9829224,
-  "timestamp": "2015-08-24T11:23:31Z",
-  "version": 2,
-  "changeset": 33543891,
-  "user": "mstriewe",
-  "uid": 292007,
+  "timestamp": "2017-01-29T11:28:40Z",
+  "version": 3,
+  "changeset": 45617595,
+  "user": "Graf Westerholt",
+  "uid": 1318877,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 3043621882,
-  "lat": 51.4434796,
-  "lon": 7.0240420,
-  "timestamp": "2015-06-11T10:19:37Z",
-  "version": 2,
-  "changeset": 31892876,
+  "lat": 51.4434852,
+  "lon": 7.0240544,
+  "timestamp": "2017-01-27T17:12:50Z",
+  "version": 3,
+  "changeset": 45567523,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
-    "recycling:glass": "yes",
     "recycling:shoes": "yes",
     "recycling_type": "container"
   }
@@ -7627,32 +7649,37 @@
 {
   "type": "node",
   "id": 3215999172,
-  "lat": 51.4448923,
-  "lon": 6.9918612,
-  "timestamp": "2014-12-02T16:43:53Z",
-  "version": 1,
-  "changeset": 27183710,
+  "lat": 51.4448798,
+  "lon": 6.9918491,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 2,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 3215999173,
-  "lat": 51.4449077,
-  "lon": 6.9916252,
-  "timestamp": "2014-12-02T16:43:53Z",
-  "version": 1,
-  "changeset": 27183710,
+  "lat": 51.4449173,
+  "lon": 6.9916245,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 2,
+  "changeset": 45865511,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container"
   }
@@ -7670,7 +7697,7 @@
   "tags": {
     "addr:city": "Essen",
     "addr:postcode": "45149",
-    "addr:street": "Föhrenweg",
+    "addr:street": "FÃ¶hrenweg",
     "amenity": "recycling",
     "recycling:cans": "no",
     "recycling:clothes": "no",
@@ -7724,19 +7751,19 @@
 {
   "type": "node",
   "id": 3474149817,
-  "lat": 51.4661422,
-  "lon": 7.0076389,
-  "timestamp": "2015-04-23T21:57:36Z",
-  "version": 1,
-  "changeset": 30442101,
-  "user": "mstriewe",
-  "uid": 292007,
+  "lat": 51.4661639,
+  "lon": 7.0076292,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 2,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
-    "recycling:scrap_metal": "no",
     "recycling_type": "container"
   }
 },
@@ -7848,32 +7875,36 @@
 {
   "type": "node",
   "id": 3790314136,
-  "lat": 51.4649594,
-  "lon": 6.9992948,
-  "timestamp": "2015-10-17T14:24:41Z",
-  "version": 1,
-  "changeset": 34694948,
-  "user": "mstriewe",
-  "uid": 292007,
+  "lat": 51.4649573,
+  "lon": 6.9992982,
+  "timestamp": "2017-02-11T16:28:38Z",
+  "version": 2,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "fixme": "Wer ist der Betreiber?",
     "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 3790314137,
-  "lat": 51.4652737,
-  "lon": 6.9999787,
-  "timestamp": "2015-10-17T14:24:41Z",
-  "version": 1,
-  "changeset": 34694948,
-  "user": "mstriewe",
-  "uid": 292007,
+  "lat": 51.4652664,
+  "lon": 6.9999529,
+  "timestamp": "2017-02-11T16:28:39Z",
+  "version": 2,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "fixme": "Wer ist der Betreiber?",
     "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
@@ -7902,17 +7933,18 @@
 {
   "type": "node",
   "id": 3790487746,
-  "lat": 51.4363085,
-  "lon": 7.0262994,
-  "timestamp": "2015-10-17T16:45:11Z",
-  "version": 1,
-  "changeset": 34697390,
+  "lat": 51.4362642,
+  "lon": 7.0262303,
+  "timestamp": "2017-02-12T15:14:46Z",
+  "version": 2,
+  "changeset": 46022245,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
     "operator": "Entsorgungsbetriebe Essen",
-    "recycling:glass": "yes",
+    "recycling:cardboard": "yes",
     "recycling:paper": "yes",
     "recycling_type": "container",
     "website": "www.ebe-essen.de",
@@ -7922,16 +7954,19 @@
 {
   "type": "node",
   "id": 3808612227,
-  "lat": 51.4672667,
-  "lon": 7.0157510,
-  "timestamp": "2015-10-29T16:30:21Z",
-  "version": 1,
-  "changeset": 34953111,
-  "user": "mstriewe",
-  "uid": 292007,
+  "lat": 51.4672270,
+  "lon": 7.0158046,
+  "timestamp": "2017-02-11T16:28:39Z",
+  "version": 2,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
     "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 },
@@ -7956,15 +7991,19 @@
 {
   "type": "node",
   "id": 3905311817,
-  "lat": 51.4740544,
-  "lon": 6.9992948,
-  "timestamp": "2015-12-22T19:47:39Z",
-  "version": 1,
-  "changeset": 36112511,
-  "user": "dachefte",
-  "uid": 133419,
+  "lat": 51.4740540,
+  "lon": 6.9992988,
+  "timestamp": "2017-02-11T16:28:39Z",
+  "version": 2,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
     "recycling_type": "container"
   }
 },
@@ -7973,14 +8012,16 @@
   "id": 3944436645,
   "lat": 51.4248592,
   "lon": 6.9985210,
-  "timestamp": "2016-01-13T16:40:58Z",
-  "version": 1,
-  "changeset": 36553693,
-  "user": "dachefte",
-  "uid": 133419,
+  "timestamp": "2017-02-13T16:41:35Z",
+  "version": 2,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -8003,18 +8044,18 @@
 {
   "type": "node",
   "id": 3957164125,
-  "lat": 51.4376685,
-  "lon": 7.0179168,
-  "timestamp": "2016-11-01T20:42:52Z",
-  "version": 2,
-  "changeset": 43336933,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "lat": 51.4376706,
+  "lon": 7.0179262,
+  "timestamp": "2017-02-12T15:14:47Z",
+  "version": 3,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
-    "recycling:paper": "no",
     "recycling_type": "container"
   }
 },
@@ -8142,16 +8183,17 @@
 {
   "type": "node",
   "id": 4384979857,
-  "lat": 51.4378199,
-  "lon": 7.0117698,
-  "timestamp": "2016-09-05T08:58:36Z",
-  "version": 1,
-  "changeset": 41925147,
-  "user": "breeen",
-  "uid": 367191,
+  "lat": 51.4378283,
+  "lon": 7.0117671,
+  "timestamp": "2017-02-12T15:14:47Z",
+  "version": 2,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:clothes": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
     "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
@@ -8175,16 +8217,18 @@
 {
   "type": "node",
   "id": 4471968904,
-  "lat": 51.4491086,
-  "lon": 6.9872956,
-  "timestamp": "2016-10-30T23:02:33Z",
-  "version": 1,
-  "changeset": 43293973,
-  "user": "Ruhrpottkast",
-  "uid": 4800943,
+  "lat": 51.4491128,
+  "lon": 6.9873097,
+  "timestamp": "2017-02-06T20:12:00Z",
+  "version": 2,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -8247,33 +8291,34 @@
   "id": 4557356196,
   "lat": 51.4592328,
   "lon": 7.0089746,
-  "timestamp": "2017-01-17T07:40:12Z",
-  "version": 2,
-  "changeset": 45235669,
-  "user": "Graf Westerholt",
-  "uid": 1318877,
+  "timestamp": "2017-01-27T17:12:50Z",
+  "version": 3,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
 {
   "type": "node",
   "id": 4590619463,
-  "lat": 51.4403094,
-  "lon": 6.9787176,
-  "timestamp": "2017-01-05T10:55:09Z",
-  "version": 1,
-  "changeset": 44921431,
+  "lat": 51.4403038,
+  "lon": 6.9787235,
+  "timestamp": "2017-01-27T20:37:24Z",
+  "version": 2,
+  "changeset": 45573755,
   "user": "vogelfreier",
   "uid": 74746,
   "tags": {
     "amenity": "recycling",
-    "name": "Kleidung, Glas",
-    "operator": "Essener Entsorgungsbetribe Essen (EBE)",
-    "recycling:clothes": "yes",
-    "recycling:glass": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
     "recycling_type": "container"
   }
 },
@@ -8308,6 +8353,3306 @@
     "recycling:clothes": "yes",
     "recycling:glass": "yes",
     "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066572,
+  "lat": 51.4459299,
+  "lon": 7.0241188,
+  "timestamp": "2017-01-27T17:12:46Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066573,
+  "lat": 51.4434846,
+  "lon": 7.0239856,
+  "timestamp": "2017-01-27T17:12:46Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066574,
+  "lat": 51.4379015,
+  "lon": 7.0294893,
+  "timestamp": "2017-01-27T17:12:46Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066579,
+  "lat": 51.4325912,
+  "lon": 7.0383471,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Deutsches Rote Kreuz",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066582,
+  "lat": 51.4404610,
+  "lon": 7.0256948,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066583,
+  "lat": 51.4404226,
+  "lon": 7.0257122,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066584,
+  "lat": 51.4595629,
+  "lon": 7.0086287,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066585,
+  "lat": 51.4573945,
+  "lon": 7.0201923,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066586,
+  "lat": 51.4573055,
+  "lon": 7.0202519,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066587,
+  "lat": 51.4471571,
+  "lon": 7.0279918,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638066588,
+  "lat": 51.4472166,
+  "lon": 7.0279962,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638067189,
+  "lat": 51.4484117,
+  "lon": 7.0337698,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638067190,
+  "lat": 51.4494162,
+  "lon": 7.0261229,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638067191,
+  "lat": 51.4494506,
+  "lon": 7.0261977,
+  "timestamp": "2017-01-27T17:12:47Z",
+  "version": 1,
+  "changeset": 45567523,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638424487,
+  "lat": 51.4422946,
+  "lon": 6.9839730,
+  "timestamp": "2017-01-27T20:23:50Z",
+  "version": 1,
+  "changeset": 45573254,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638424488,
+  "lat": 51.4422613,
+  "lon": 6.9841321,
+  "timestamp": "2017-01-27T20:23:50Z",
+  "version": 1,
+  "changeset": 45573254,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4638469611,
+  "lat": 51.4403349,
+  "lon": 6.9787075,
+  "timestamp": "2017-01-27T20:37:23Z",
+  "version": 1,
+  "changeset": 45573755,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242063,
+  "lat": 51.4468771,
+  "lon": 7.0457475,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "fixme": "unbekannter Betreiber! Schwarzes Schaf?",
+    "recycling:clothes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242070,
+  "lat": 51.4467987,
+  "lon": 7.0368030,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242071,
+  "lat": 51.4468443,
+  "lon": 7.0368258,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242072,
+  "lat": 51.4470519,
+  "lon": 7.0372444,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242073,
+  "lat": 51.4511410,
+  "lon": 7.0362969,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242074,
+  "lat": 51.4488328,
+  "lon": 7.0387796,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4663242075,
+  "lat": 51.4488980,
+  "lon": 7.0388393,
+  "timestamp": "2017-02-04T13:20:35Z",
+  "version": 1,
+  "changeset": 45805134,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980343,
+  "lat": 51.4477191,
+  "lon": 7.0267439,
+  "timestamp": "2017-02-05T09:28:00Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980344,
+  "lat": 51.4506567,
+  "lon": 7.0260803,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980345,
+  "lat": 51.4527540,
+  "lon": 7.0229613,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980346,
+  "lat": 51.4527724,
+  "lon": 7.0230203,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980347,
+  "lat": 51.4539805,
+  "lon": 7.0260276,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980348,
+  "lat": 51.4551895,
+  "lon": 7.0341342,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980349,
+  "lat": 51.4548141,
+  "lon": 7.0438847,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980350,
+  "lat": 51.4547827,
+  "lon": 7.0438760,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980351,
+  "lat": 51.4510713,
+  "lon": 7.0438441,
+  "timestamp": "2017-02-05T16:06:34Z",
+  "version": 2,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980352,
+  "lat": 51.4461127,
+  "lon": 7.0509691,
+  "timestamp": "2017-02-05T16:06:34Z",
+  "version": 2,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980353,
+  "lat": 51.4483610,
+  "lon": 7.0439107,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980354,
+  "lat": 51.4492456,
+  "lon": 7.0456265,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980355,
+  "lat": 51.4480596,
+  "lon": 7.0483451,
+  "timestamp": "2017-02-05T09:28:01Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4664980356,
+  "lat": 51.4480811,
+  "lon": 7.0482997,
+  "timestamp": "2017-02-05T09:28:02Z",
+  "version": 1,
+  "changeset": 45824105,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634004,
+  "lat": 51.4527598,
+  "lon": 7.0370443,
+  "timestamp": "2017-02-05T16:06:30Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634005,
+  "lat": 51.4528288,
+  "lon": 7.0370020,
+  "timestamp": "2017-02-05T16:06:30Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634006,
+  "lat": 51.4528045,
+  "lon": 7.0370195,
+  "timestamp": "2017-02-05T16:06:30Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634007,
+  "lat": 51.4453719,
+  "lon": 7.0526886,
+  "timestamp": "2017-02-05T16:06:30Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634008,
+  "lat": 51.4453631,
+  "lon": 7.0526336,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634009,
+  "lat": 51.4427990,
+  "lon": 7.0563669,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634010,
+  "lat": 51.4458755,
+  "lon": 7.0585143,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634011,
+  "lat": 51.4459570,
+  "lon": 7.0585633,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634021,
+  "lat": 51.4466732,
+  "lon": 7.0555643,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634022,
+  "lat": 51.4467497,
+  "lon": 7.0555783,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634023,
+  "lat": 51.4466793,
+  "lon": 7.0431121,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634024,
+  "lat": 51.4462655,
+  "lon": 7.0393778,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634025,
+  "lat": 51.4462291,
+  "lon": 7.0394140,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4665634026,
+  "lat": 51.4445678,
+  "lon": 7.0391759,
+  "timestamp": "2017-02-05T16:06:31Z",
+  "version": 1,
+  "changeset": 45832849,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427749,
+  "lat": 51.4526919,
+  "lon": 6.9871659,
+  "timestamp": "2017-02-06T20:11:56Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427750,
+  "lat": 51.4526852,
+  "lon": 6.9864470,
+  "timestamp": "2017-02-06T20:11:56Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427751,
+  "lat": 51.4519385,
+  "lon": 6.9863163,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container",
+    "source": "bing"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427752,
+  "lat": 51.4492014,
+  "lon": 6.9828683,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427756,
+  "lat": 51.4457156,
+  "lon": 6.9815802,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427760,
+  "lat": 51.4435775,
+  "lon": 6.9830956,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427761,
+  "lat": 51.4439024,
+  "lon": 6.9860225,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Grotes",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427762,
+  "lat": 51.4448831,
+  "lon": 6.9916331,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427763,
+  "lat": 51.4432878,
+  "lon": 6.9897039,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427764,
+  "lat": 51.4432970,
+  "lon": 6.9898313,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427765,
+  "lat": 51.4428197,
+  "lon": 6.9892359,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "texaiid; immeo-wohnen",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427768,
+  "lat": 51.4375055,
+  "lon": 6.9882398,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427769,
+  "lat": 51.4374575,
+  "lon": 6.9882656,
+  "timestamp": "2017-02-06T20:11:57Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427770,
+  "lat": 51.4358162,
+  "lon": 6.9917388,
+  "timestamp": "2017-02-06T20:11:58Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Diakoniewerk Essen",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427771,
+  "lat": 51.4412787,
+  "lon": 6.9946653,
+  "timestamp": "2017-02-06T20:11:58Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Kolpingwerk",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4669427774,
+  "lat": 51.4434633,
+  "lon": 7.0008807,
+  "timestamp": "2017-02-06T20:11:58Z",
+  "version": 1,
+  "changeset": 45865511,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888160,
+  "lat": 51.4208836,
+  "lon": 6.9778482,
+  "timestamp": "2017-02-09T16:53:48Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888161,
+  "lat": 51.4208970,
+  "lon": 6.9778743,
+  "timestamp": "2017-02-09T16:53:48Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888162,
+  "lat": 51.4231669,
+  "lon": 6.9802974,
+  "timestamp": "2017-02-09T16:53:48Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888163,
+  "lat": 51.4230879,
+  "lon": 6.9803886,
+  "timestamp": "2017-02-09T16:53:48Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888164,
+  "lat": 51.4230502,
+  "lon": 6.9802827,
+  "timestamp": "2017-02-09T16:53:48Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Brotex",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888165,
+  "lat": 51.4245029,
+  "lon": 6.9796095,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Diakoniewerk Essen",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888170,
+  "lat": 51.4246385,
+  "lon": 6.9755633,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888171,
+  "lat": 51.4270350,
+  "lon": 6.9724701,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888172,
+  "lat": 51.4270538,
+  "lon": 6.9724865,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888173,
+  "lat": 51.4285014,
+  "lon": 6.9732737,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888174,
+  "lat": 51.4285075,
+  "lon": 6.9732351,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888175,
+  "lat": 51.4345063,
+  "lon": 6.9796711,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888176,
+  "lat": 51.4345427,
+  "lon": 6.9795752,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888180,
+  "lat": 51.4413658,
+  "lon": 6.9860783,
+  "timestamp": "2017-02-09T16:53:49Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Leisten",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888181,
+  "lat": 51.4415609,
+  "lon": 6.9860769,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Brotex",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888183,
+  "lat": 51.4428538,
+  "lon": 6.9869896,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888184,
+  "lat": 51.4428675,
+  "lon": 6.9869460,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888185,
+  "lat": 51.4439293,
+  "lon": 7.0024974,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888186,
+  "lat": 51.4439577,
+  "lon": 7.0024310,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676888187,
+  "lat": 51.4453871,
+  "lon": 7.0213100,
+  "timestamp": "2017-02-09T16:53:50Z",
+  "version": 1,
+  "changeset": 45952002,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676920202,
+  "lat": 51.4273242,
+  "lon": 6.9761031,
+  "timestamp": "2017-02-09T17:13:07Z",
+  "version": 1,
+  "changeset": 45952441,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676920203,
+  "lat": 51.4273209,
+  "lon": 6.9760421,
+  "timestamp": "2017-02-09T17:13:07Z",
+  "version": 1,
+  "changeset": 45952441,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963800,
+  "lat": 51.3786993,
+  "lon": 6.9875152,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "recycling:small_appliances": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963801,
+  "lat": 51.3785243,
+  "lon": 6.9876091,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "description": "\"SperrmÃ¼ll\" -> Gartengarnitur/Sessel/Tisch/SchrÃ¤nke/...",
+    "recycling:bulky_waste": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963802,
+  "lat": 51.3786758,
+  "lon": 6.9877660,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "recycling:waste": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963803,
+  "lat": 51.3786105,
+  "lon": 6.9875581,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "recycling:scrap_metal": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963805,
+  "lat": 51.3787340,
+  "lon": 6.9878539,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "recycling:fluorescent_tubes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963806,
+  "lat": 51.3784193,
+  "lon": 6.9879236,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "recycling:hardcore": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963807,
+  "lat": 51.3785381,
+  "lon": 6.9881442,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "recycling:garden_waste": "yes",
+    "recycling:green_waste": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963808,
+  "lat": 51.3785662,
+  "lon": 6.9879088,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963809,
+  "lat": 51.3785297,
+  "lon": 6.9878612,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963810,
+  "lat": 51.3831491,
+  "lon": 7.0004294,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963811,
+  "lat": 51.3831133,
+  "lon": 7.0004166,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963812,
+  "lat": 51.3830788,
+  "lon": 7.0004123,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4676963813,
+  "lat": 51.3791499,
+  "lon": 6.9928005,
+  "timestamp": "2017-02-09T17:46:34Z",
+  "version": 1,
+  "changeset": 45953167,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384055,
+  "lat": 51.4471835,
+  "lon": 7.0501817,
+  "timestamp": "2017-02-11T16:28:34Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384061,
+  "lat": 51.4680418,
+  "lon": 7.0212185,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384062,
+  "lat": 51.4680635,
+  "lon": 7.0211930,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384063,
+  "lat": 51.4688513,
+  "lon": 7.0176887,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384068,
+  "lat": 51.4683142,
+  "lon": 7.0136480,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384069,
+  "lat": 51.4683710,
+  "lon": 7.0136755,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384075,
+  "lat": 51.4634821,
+  "lon": 7.0148671,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384076,
+  "lat": 51.4634721,
+  "lon": 7.0148195,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384078,
+  "lat": 51.4660966,
+  "lon": 7.0076579,
+  "timestamp": "2017-02-11T16:28:35Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384079,
+  "lat": 51.4740684,
+  "lon": 6.9993568,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384080,
+  "lat": 51.4740285,
+  "lon": 6.9992224,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384081,
+  "lat": 51.4675080,
+  "lon": 7.0028012,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "fixme": "Wer ist der Betreiber?",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384082,
+  "lat": 51.4674867,
+  "lon": 7.0027656,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384084,
+  "lat": 51.4661493,
+  "lon": 6.9999613,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384085,
+  "lat": 51.4661263,
+  "lon": 6.9998909,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384190,
+  "lat": 51.4634596,
+  "lon": 7.0026368,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384191,
+  "lat": 51.4634103,
+  "lon": 7.0026683,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384195,
+  "lat": 51.4606936,
+  "lon": 7.0127776,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384206,
+  "lat": 51.4589212,
+  "lon": 7.0163993,
+  "timestamp": "2017-02-11T16:28:36Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680384207,
+  "lat": 51.4589563,
+  "lon": 7.0164338,
+  "timestamp": "2017-02-11T16:28:37Z",
+  "version": 1,
+  "changeset": 46001732,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680468998,
+  "lat": 51.4651774,
+  "lon": 6.9949899,
+  "timestamp": "2017-02-11T17:21:16Z",
+  "version": 1,
+  "changeset": 46002991,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4680468999,
+  "lat": 51.4652050,
+  "lon": 6.9950046,
+  "timestamp": "2017-02-11T17:21:17Z",
+  "version": 1,
+  "changeset": 46002991,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820636,
+  "lat": 51.4429023,
+  "lon": 7.0226062,
+  "timestamp": "2017-02-12T15:14:41Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820637,
+  "lat": 51.4428617,
+  "lon": 7.0225948,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820638,
+  "lat": 51.4428237,
+  "lon": 7.0225808,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820649,
+  "lat": 51.4361548,
+  "lon": 7.0200766,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820651,
+  "lat": 51.4376798,
+  "lon": 7.0178929,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820652,
+  "lat": 51.4370667,
+  "lon": 7.0153693,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820653,
+  "lat": 51.4371131,
+  "lon": 7.0155175,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820655,
+  "lat": 51.4378107,
+  "lon": 7.0117551,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820656,
+  "lat": 51.4393073,
+  "lon": 7.0021691,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820657,
+  "lat": 51.4393637,
+  "lon": 7.0022013,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820658,
+  "lat": 51.4374115,
+  "lon": 7.0063196,
+  "timestamp": "2017-02-12T15:14:42Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820660,
+  "lat": 51.4349482,
+  "lon": 7.0018756,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820661,
+  "lat": 51.4349719,
+  "lon": 7.0018693,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820665,
+  "lat": 51.4343144,
+  "lon": 6.9969861,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820666,
+  "lat": 51.4342969,
+  "lon": 6.9970391,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820674,
+  "lat": 51.4328985,
+  "lon": 6.9950931,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820675,
+  "lat": 51.4317987,
+  "lon": 7.0009804,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820676,
+  "lat": 51.4303817,
+  "lon": 7.0043134,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820677,
+  "lat": 51.4316325,
+  "lon": 7.0157724,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820678,
+  "lat": 51.4315781,
+  "lon": 7.0158388,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820679,
+  "lat": 51.4315296,
+  "lon": 7.0158897,
+  "timestamp": "2017-02-12T15:14:43Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820680,
+  "lat": 51.4341414,
+  "lon": 7.0221134,
+  "timestamp": "2017-02-12T15:14:44Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Deutsches Rotes Kreuz",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820682,
+  "lat": 51.4363372,
+  "lon": 7.0263268,
+  "timestamp": "2017-02-12T15:14:44Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820685,
+  "lat": 51.4369124,
+  "lon": 7.0282905,
+  "timestamp": "2017-02-12T15:14:44Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Essener Entsorgungsbetriebe",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4681820686,
+  "lat": 51.4369041,
+  "lon": 7.0282369,
+  "timestamp": "2017-02-12T15:14:44Z",
+  "version": 1,
+  "changeset": 46022245,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779275,
+  "lat": 51.4094933,
+  "lon": 6.9848557,
+  "timestamp": "2017-02-13T16:41:30Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779276,
+  "lat": 51.4095126,
+  "lon": 6.9848513,
+  "timestamp": "2017-02-13T16:41:30Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779713,
+  "lat": 51.4109522,
+  "lon": 6.9821440,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779714,
+  "lat": 51.4109204,
+  "lon": 6.9821436,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779715,
+  "lat": 51.4123414,
+  "lon": 6.9815575,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779716,
+  "lat": 51.4124039,
+  "lon": 6.9815763,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779724,
+  "lat": 51.4130719,
+  "lon": 6.9910450,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779725,
+  "lat": 51.4131304,
+  "lon": 6.9910759,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779726,
+  "lat": 51.4127218,
+  "lon": 6.9924498,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779727,
+  "lat": 51.4127574,
+  "lon": 6.9924726,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779728,
+  "lat": 51.4142477,
+  "lon": 6.9986052,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779729,
+  "lat": 51.4142577,
+  "lon": 6.9986635,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779730,
+  "lat": 51.4175255,
+  "lon": 7.0104827,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779731,
+  "lat": 51.4175452,
+  "lon": 7.0105558,
+  "timestamp": "2017-02-13T16:41:31Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779732,
+  "lat": 51.4201017,
+  "lon": 7.0039397,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779733,
+  "lat": 51.4201364,
+  "lon": 7.0038713,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779734,
+  "lat": 51.4223981,
+  "lon": 7.0074677,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779736,
+  "lat": 51.4240448,
+  "lon": 7.0050133,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779738,
+  "lat": 51.4285545,
+  "lon": 6.9986871,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779744,
+  "lat": 51.4298482,
+  "lon": 6.9995346,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "note": "fÃ¼r die private Entsorgung im Hause",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779747,
+  "lat": 51.4324452,
+  "lon": 7.0074297,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779757,
+  "lat": 51.4321653,
+  "lon": 7.0118878,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779758,
+  "lat": 51.4307890,
+  "lon": 7.0131351,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779759,
+  "lat": 51.4358596,
+  "lon": 7.0152570,
+  "timestamp": "2017-02-13T16:41:32Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4683779760,
+  "lat": 51.4358834,
+  "lon": 7.0152486,
+  "timestamp": "2017-02-13T16:41:33Z",
+  "version": 1,
+  "changeset": 46052630,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Rhenus Logistics",
+    "recycling:glass_bottles": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4685317207,
+  "lat": 51.4270142,
+  "lon": 6.9631621,
+  "timestamp": "2017-02-14T14:14:36Z",
+  "version": 1,
+  "changeset": 46080174,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4685317209,
+  "lat": 51.4274433,
+  "lon": 6.9647347,
+  "timestamp": "2017-02-14T14:14:36Z",
+  "version": 1,
+  "changeset": 46080174,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Entsorgungsbetriebe Essen",
+    "recycling:cardboard": "yes",
+    "recycling:paper": "yes",
+    "recycling_type": "container"
+  }
+},
+{
+  "type": "node",
+  "id": 4685317210,
+  "lat": 51.4274681,
+  "lon": 6.9645976,
+  "timestamp": "2017-02-14T14:14:36Z",
+  "version": 1,
+  "changeset": 46080174,
+  "user": "vogelfreier",
+  "uid": 74746,
+  "tags": {
+    "amenity": "recycling",
+    "opening_hours": "Mo-Sa 07:00-19:00; PH Su off",
+    "operator": "Loop",
+    "recycling:clothes": "yes",
+    "recycling:shoes": "yes",
     "recycling_type": "container"
   }
 }
