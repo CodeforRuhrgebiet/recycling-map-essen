@@ -1,6 +1,10 @@
 $green: #8cdba6;
 $red: #ff635e;
 $blue: #00abfa;
+$clothes-color: $red;
+$glass-color: $green;
+$paper-color: $blue;
+
 $font-body: Helvetica, Arial, sans-serif;
 
 body {
@@ -29,22 +33,6 @@ body {
       height: 600px;
     }
 
-    .leaflet-map {
-      .segment {
-          fill: transparent;
-          stroke: black;
-          stroke-width: 6;
-      }
-      .segment--clothes {
-          stroke: $red;
-      }
-      .segment--glass {
-          stroke: $green;
-      }
-      .segment--paper {
-          stroke: $blue;
-      }
-    }
   }
 
   &__legend {
@@ -84,19 +72,53 @@ body {
       }
 
       &--glass span {
-          background-color: $green;
+          background-color: $glass-color;
       }
 
       &--clothes span {
-          background-color: $red;
+          background-color: $clothes-color;
       }
 
       &--paper span {
-          background-color: $blue;
+          background-color: $paper-color;
       }
 
     }
 
+  }
+
+  .segmented-circle-icon {
+    .segment {
+        fill: transparent;
+        stroke: black;
+        stroke-width: 6;
+    }
+    .segment--clothes {
+        stroke: $clothes-color;
+    }
+    .segment--glass {
+        stroke: $glass-color;
+    }
+    .segment--paper {
+        stroke: $paper-color;
+    }
+  }
+
+  .segmented-circle-icon.segmented-circle-icon--1-segments {
+    .segment {
+        fill: transparent;
+        stroke: transparent;
+        stroke-width: 0;
+    }
+    .segment--clothes {
+        fill: $clothes-color;
+    }
+    .segment--glass {
+        fill: $glass-color;
+    }
+    .segment--paper {
+        fill: $paper-color;
+    }
   }
 
 }
