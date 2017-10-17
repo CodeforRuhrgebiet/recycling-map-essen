@@ -9,6 +9,9 @@ cd "$(dirname "$0")/.."
 
 [ -z "$DEBUG" ] || set -x
 
+PROJECT_ROOT="$(cd "$(dirname "$0")"/.. && pwd)"
+export PATH="$PROJECT_ROOT/node_modules/.bin:$PATH"
+
 babel recycling-map.js | uglifyjs -c -m > recycling-map.min.js
 babel segmented-circle-icon.js | uglifyjs -c -m > segmented-circle-icon.min.js
 
