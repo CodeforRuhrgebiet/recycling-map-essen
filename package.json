@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "## build deps",
   "main": "recycling-map.js",
+  "engines": {
+    "node": "6.11.4"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
