@@ -10,6 +10,6 @@ script/setup
 script/build
 
 ## add deployment instructions here..
-rsync -avce --exclude node_modules/ --exclude script/ --exclude package.json --exclude package-lock.json --exclude style.scss "ssh -o StrictHostKeyChecking=no" ./ cfruhr@brorsen.uberspace.de:/home/cfruhr/vhosts/abfallkarte.openruhr.de/
+rsync --progress --exclude node_modules/ --exclude script/ --exclude package.json --exclude package-lock.json --exclude style.scss -avce "ssh -o StrictHostKeyChecking=no" ./ cfruhr@brorsen.uberspace.de:/home/cfruhr/vhosts/abfallkarte.openruhr.de/
 
 echo "==> App is deployed!"
