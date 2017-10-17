@@ -11,6 +11,6 @@ script/build
 
 echo $(pwd)
 ## add deployment instructions here..
-rsync -avce --progress --exclude node_modules/ script/ package.json package-lock.json "ssh -o StrictHostKeyChecking=no" ./ cfruhr@brorsen.uberspace.de:/home/cfruhr/vhosts/abfallkarte.openruhr.de/
+rsync -avce --progress --exclude node_modules/ --exclude script/ --exclude package.json --exclude package-lock.json --exclude style.scss "ssh -o StrictHostKeyChecking=no" ./ cfruhr@brorsen.uberspace.de:/home/cfruhr/vhosts/abfallkarte.openruhr.de/
 
 echo "==> App is deployed!"
