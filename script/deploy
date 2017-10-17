@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# script/setup: This build the app and then deploys it.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/setup
+script/build
+
+## add deployment instructions here..
+
+echo "==> App is deployed!"

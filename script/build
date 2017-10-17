@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# script/test: Builds the app
+
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+[ -z "$DEBUG" ] || set -x
+
+babel recycling-map.js | uglifyjs -c -m > recycling-map.min.js
+babel segmented-circle-icon.js | uglifyjs -c -m > segmented-circle-icon.min.js
+
+sass -t compressed style.scss:style.css
