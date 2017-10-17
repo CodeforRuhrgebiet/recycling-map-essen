@@ -10,5 +10,6 @@ script/setup
 script/build
 
 ## add deployment instructions here..
+rsync -avce --progress --exclude node_modules/ "ssh -o StrictHostKeyChecking=no" build/ cfruhr@brorsen.uberspace.de:/home/cfruhr/vhosts/abfallkarte.openruhr.de/
 
 echo "==> App is deployed!"
