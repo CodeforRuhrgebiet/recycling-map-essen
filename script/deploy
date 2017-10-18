@@ -10,7 +10,7 @@ script/setup
 script/build
 
 # deployment instructions here
-HOST=cfruhr@brorsen.uberspace.de
+HOST=cfruhr@musca.uberspace.de
 DESTINATION_PATH=/var/www/virtual/cfruhr/abfallkarte.openruhr.de/
 
 ssh -o StrictHostKeyChecking=no $HOST mkdir -p $DESTINATION_PATH
