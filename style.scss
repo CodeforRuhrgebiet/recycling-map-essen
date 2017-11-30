@@ -1,85 +1,112 @@
-$green: #8cdba6;
-$red: #ff635e;
-$blue: #00abfa;
+$green:  #8cdba6;
+$red:    #ff635e;
+$blue:   #00abfa;
 $clothes-color: $red;
-$glass-color: $green;
-$paper-color: $blue;
+$glass-color:   $green;
+$paper-color:   $blue;
 
 $font-body: Helvetica, Arial, sans-serif;
 
+$header-height: 4rem;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
 body {
+  height: 100vh;
+}
+
+html {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
   font-family: $font-body;
+  background-color: #CDCDCD;
 }
 
 .recycling-map {
 
-  padding: 20px;
-
   &__header {
+    height: $header-height;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
     h1 {
+      margin-top: 0;
       font-family: $font-body;
+      font-size: 1rem;
       font-weight: 300;
+    }
+    .tagline {
+      font-style: italic;
+      font-weight: normal;
     }
   }
 
   &__main {
-
+    height: calc(100% - #{$header-height});
   }
 
   &__leaflet-wrapper {
     position: relative;
-
-    #recycling-map {
-      height: 600px;
-    }
-
   }
 
-  &__legend {
-
-    z-index: 1000;  // leaflet
+  .legend {
+    width: 100%;
+    padding: 0.625rem 1rem;
     position: absolute;
-    top: 10px;
-    right: 10px;
-    border: 2px solid rgba(0,0,0,0.2);
-    border-radius: 4px;
+    top: 0;
+    z-index: 1000;  // leaflet
     background-color: white;
     background-clip: padding-box;
-    padding: 10px;
-    text-align: right;
+    font-size: .75em;
 
-    h3 {
-      margin: 0 0 10px;
+    &__label,
+    &__list,
+    &__item {
+      display: inline-block;
     }
 
-    &-list {
+    &__label {}
 
+    &__list {
       margin: 0;
       padding: 0;
       list-style: none;
-
     }
 
-    &-item {
+    &__item {
+      display: inline-block;
+      margin-left: 0.75rem;
+      line-height: 1.5;
 
-      font-size: .8em;
-      line-height: 1.5em;
-
-      span {
+      .bubble {
         display: inline-block;
-        width: 10px;
-        height: 10px;
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-right: 0.2rem;
+        border-radius: 50%;
+        position: relative;
+        top: 2px;
       }
 
-      &--glass span {
+      &--glass .bubble {
           background-color: $glass-color;
       }
 
-      &--clothes span {
+      &--clothes .bubble {
           background-color: $clothes-color;
       }
 
-      &--paper span {
+      &--paper .bubble {
           background-color: $paper-color;
       }
 
@@ -120,5 +147,37 @@ body {
         fill: $paper-color;
     }
   }
+
+  @media screen and (min-width: 500px) {
+    &__header {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+    .legend {
+      width: auto;
+      top: 0;
+      right: 0;
+      text-align: right;
+      &__label,
+      &__list,
+      &__item {
+        display: block;
+      }
+      &__label {
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+      }
+      &__item {
+        line-height: 1.6;
+        .bubble {
+          float: right;
+          margin-left: 0.5rem;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
 
 }
