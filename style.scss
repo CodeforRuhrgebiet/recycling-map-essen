@@ -58,6 +58,10 @@ body {
   &__leaflet-wrapper {
     position: relative;
   }
+  &__leaflet-wrapper,
+  .leaflet-map {
+    height: 100vh;
+  }
 
   .legend {
     width: 100%;
