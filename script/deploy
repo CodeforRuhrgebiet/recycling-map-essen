@@ -10,7 +10,7 @@ script/setup
 script/build
 
 # deployment instructions here
-DOMAIN=cfruhr@musca.uberspace.de
+DOMAIN=abfallkarte.openruhr.de
 HOST=cfruhr@uberspace.openruhr.de
 DESTINATION_PATH=/var/www/virtual/cfruhr/$DOMAIN/
 
