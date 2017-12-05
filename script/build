@@ -13,6 +13,7 @@ PROJECT_ROOT="$(cd "$(dirname "$0")"/.. && pwd)"
 export PATH="$PROJECT_ROOT/node_modules/.bin:$PATH"
 
 cp src/index.html dist/index.html
+cp -r src/data dist/data
 
 babel src/recycling-map.js | uglifyjs -c -m > dist/recycling-map.min.js
 babel src/segmented-circle-icon.js | uglifyjs -c -m > dist/segmented-circle-icon.min.js
