@@ -73,7 +73,7 @@ const renderMap = ({elements, generator, osm3s}) => {
       if (identifier === 'shoes') {
         identifier = 'clothes'
       }
-      
+
       return identifier
     }).filter((prop, index, arr) => {
       return (arr.indexOf(prop) === index)
